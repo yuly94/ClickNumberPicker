@@ -17,21 +17,43 @@
         app:value_text_color="@android:color/white"/>
 
     <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:id="@+id/my_picker_01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         app:decimal_number="2"
         app:integer_priority="false"
         app:picker_corner_radius="20"
-        app:pickers_background_color="#424242"
+        app:pickers_background_color="#2e7d32"
         app:step="0.75"
         app:swipe_animation="false"
         app:swipe_enabled="false"
         app:value_animation_down="true"
         app:value_animation_up="true"
-        app:value_background_color="#212121"
+        app:value_background_color="#4caf50"
         app:value_text_color="@android:color/white"
         app:value_view_offset="15"/>
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:id="@+id/my_picker_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:decimal_number="0"
+        app:integer_priority="false"
+        app:picker_corner_radius="20"
+        app:pickers_background_color="#2e7d32"
+        app:step="1"
+        app:swipe_animation="false"
+        app:swipe_enabled="false"
+        app:value_animation_down="true"
+        app:value_animation_up="true"
+        app:value_background_color="#4caf50"
+        app:value_text_color="@android:color/white"
+        app:left_picker_layout="@layout/minus_picker_view"
+        app:right_picker_layout="@layout/plus_picker_view"
+        app:value_view_offset="15"/>
+
 
     <pl.polak.clicknumberpicker.ClickNumberPickerView
         android:layout_width="match_parent"
